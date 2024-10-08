@@ -1,0 +1,138 @@
+Skip to content
+Navigation Menu
+Product
+Solutions
+Resources
+Open Source
+Enterprise
+Pricing
+
+Search or jump to...
+Sign in
+Sign up
+giullianacestari
+/
+alura-books
+Public
+Code
+Issues
+2
+Pull requests
+4
+Actions
+Projects
+Security
+Insights
+Commit
+subindo aula 12
+ aula12 aula13 aula14 aula15 aula16 aula17 aula18 aula19 aula20
+@giullianacestari
+giullianacestari authored on Apr 4 
+1 parent 3593b89
+commit f995155
+ 
+Showing 4 changed files with 61 additions and 0 deletions.
+Filter changed files
+  14 changes: 14 additions & 0 deletions14  
+index.html
+Original file line number	Diff line number	Diff line change
+@@ -193,6 +193,20 @@ <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Atualizações de e-books, novos livros, promoções e outros.
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+  2 changes: 2 additions & 0 deletions2  
+styles.css
+Original file line number	Diff line number	Diff line change
+@@ -2,6 +2,8 @@
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+ 37 changes: 37 additions & 0 deletions37  
+styles/contato.css
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,37 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("../img/Email.svg") no-repeat;
+    padding-left: 2em;
+}
+ 8 changes: 8 additions & 0 deletions8  
+styles/rodapé.css
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,8 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1em;
+}
+0 comments on commit f995155
+Please sign in to comment.
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+subindo aula 12 · giullianacestari/alura-books@f995155 · GitHub
